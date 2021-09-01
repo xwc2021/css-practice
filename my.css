@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+.nav{
+    position: relative;
+    max-width: 600px;
+    background:rgb(255, 182, 255);
+    text-align: center;
+    font-size: 0px;
+    margin: auto;
+}
+
+.nav a{
+    display: inline-block;
+    font-size: 20px;
+    box-sizing:border-box;
+    width: 60px;
+    padding: 10px 10px;
+    /* transition: 1.5s; */
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: orange;
+}
+
+.box{
+    max-width: 960px;
+    border: 10px solid blue;
+    background-color: aqua;
+    margin: auto;
+}
+
+.note{
+    box-sizing:border-box;
+    float: left;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(245, 220, 173);
+    border: 2px solid rgb(255, 0, 0);
+    /* line-height: 1; */
+    /* text-indent:20px; */
+}
+
+img{
+    width: 100%;
+}
