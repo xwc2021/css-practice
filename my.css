@@ -35,6 +35,7 @@ body{
 .note{
     box-sizing:border-box;
     float: left;
+    /* display: inline-block; */
     width: 300px;
     padding: 20px;
     margin: 10px;
@@ -44,8 +45,21 @@ body{
     /* text-indent:20px; */
 }
 
+
+.fixed-for-note{
+    background-color: #fff;
+    height: 20px;
+    clear: both;
+}
+
 img{
     width: 100%;
+}
+
+.float-img{
+    width: 50%;
+    float: left;
+    margin: 10px;
 }
 
 .wanted{
