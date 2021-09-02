@@ -7,26 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         .menu {
+            max-width: 200px;
+            height: 600px;
+            background-color: aqua;
 
             position: fixed;
-            width: 400px;
-            height: 600px;
-            background: aqua;
-
-            /* position設為fixed之後
-            只有marin:auto還不夠 */
-            right: 0;
+            margin: auto;
             left: 0;
+            right: 0;
             top: 0;
             bottom: 0;
-            margin: auto;
+        }
+
+        .fullscreen {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 256, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .fullscreen .txt {
+            border: 2px solid red;
+            max-width: 600px;
+            height: 200px;
+            background-color: aqua;
         }
     </style>
 </head>
 
 <body>
-    <div class="menu">Menu</div>
+    <div class="menu">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit eveniet beatae reiciendis fugit vel
+        alias ipsa est dolor nulla. Explicabo molestiae dignissimos quis omnis neque. Laudantium minima quisquam officia
+        et.</div>
+
+    <div class="fullscreen">
+        <div class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis eaque saepe magnam quam
+            eum, similique deleniti. Nesciunt commodi consequuntur labore exercitationem optio molestias tenetur, ipsa
+            vel magnam atque harum.</div>
+    </div>
     <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam rerum reiciendis suscipit autem
         tenetur, aliquid, fugiat qui blanditiis velit, eveniet earum. Quas voluptas tempora deleniti vitae non harum
         vero?</div>
