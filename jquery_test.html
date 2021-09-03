@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .wrap {
+            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
         .container {
             width: 200px;
             height: 200px;
@@ -63,13 +69,31 @@
             height: 600px;
             background-color: greenyellow;
         }
+
+        @media screen and (min-width:768px) {
+            .wrap {
+                width: 800px;
+            }
+        }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="circle"></div>
+    <div class="wrap">
+        <div class="container">
+            <div class="circle"></div>
+        </div>
+        <div class="container">
+            <div class="circle"></div>
+        </div>
+        <div class="container">
+            <div class="circle"></div>
+        </div>
+        <div class="container">
+            <div class="circle"></div>
+        </div>
     </div>
+
 
     <div class='btn'>btn1</div>
     <div class='content'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, cum quo excepturi ducimus
