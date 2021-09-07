@@ -39,7 +39,7 @@
         position: relative;
     }
 
-    .text:after {
+    .text::before {
         position: absolute;
         left: 0;
         top: 0;
@@ -49,7 +49,7 @@
         height: 0;
 
         /*利用border製造三角形:值不是偶數會有問題*/
-        border-top: 60px solid transparent;
+        border-top: 64px solid transparent;
         border-left: 194px solid #fff;
         border-right: 194px solid #fff;
         transform: translateY(-100%);
