@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin: auto;
+    }
+
+    .wrap {
+        width: 1200px;
+        display: flex;
+    }
+
+    .item {
+        width: 388px;
+        margin: 5px;
+        border: 1px solid #aaa;
+    }
+
+    .item img {
+        width: 100%;
+
+        /*不然會有白底*/
+        vertical-align: middle;
+
+    }
+
+    .text {
+        padding: 20px;
+        position: relative;
+    }
+
+    .text:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: '';
+        /* background-color: aqua; */
+        width: 0;
+        height: 0;
+
+        /*利用border製造三角形:值不是偶數會有問題*/
+        border-top: 60px solid transparent;
+        border-left: 194px solid #fff;
+        border-right: 194px solid #fff;
+        transform: translateY(-100%);
+    }
+</style>
+
+<body>
+
+    <div class="wrap">
+        <div class="item">
+            <img src="https://picsum.photos/300/300?random=1" alt="">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis sequi amet voluptatem blanditiis
+                    sapiente
+                    aut! In
+                    fugiat rem obcaecati! Veniam nihil consequatur aut illum eius soluta accusantium commodi, cumque
+                    odio.
+                </p>
+            </div>
+
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/300/300?random=1" alt="">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis sequi amet voluptatem blanditiis
+                    sapiente
+                    aut! In
+                    fugiat rem obcaecati! Veniam nihil consequatur aut illum eius soluta accusantium commodi, cumque
+                    odio.
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/300/300?random=1" alt="">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis sequi amet voluptatem blanditiis
+                    sapiente
+                    aut! In
+                    fugiat rem obcaecati! Veniam nihil consequatur aut illum eius soluta accusantium commodi, cumque
+                    odio.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
