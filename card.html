@@ -26,7 +26,6 @@
             width: 960px;
             display: flex;
             justify-content: center;
-            align-items: center;
             flex-wrap: wrap;
         }
 
@@ -50,9 +49,28 @@
 
         .item .text {
             width: 50%;
+            /* height: 75vh; */
             box-sizing: border-box;
             padding: 20px;
             background-color: pink;
+
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item .text .btn {
+            align-self: flex-end;
+            margin-top: auto;
+            text-decoration: none;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background-color: rgb(171, 248, 248);
+            color: white;
+            transition: 0.5s;
+        }
+
+        .item .text .btn:hover {
+            background-color: rgb(248, 94, 235);
         }
     </style>
 </head>
@@ -69,10 +87,10 @@
                     <h1>title</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem temporibus quas repellat quam
                         ipsum,
-                        nam
-                        quae. Ratione minus consectetur cupiditate voluptatem error distinctio reprehenderit nulla, ut
-                        provident
-                        neque, voluptate quaerat!</p>
+
+                    </p>
+
+                    <a href="#" class="btn">btn</a>
                 </div>
             </div>
             <div class="item">
