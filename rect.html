@@ -24,13 +24,13 @@
             position: relative;
         }
 
+        .item:first-child {
+            width: 50%;
+        }
+
         .pic img {
             width: 100%;
             vertical-align: middle;
-        }
-
-        .item:first-child {
-            width: 50%;
         }
 
         .item .text {
@@ -46,16 +46,16 @@
             transition: 0.3s;
         }
 
+        .item:hover .text {
+            transform: scale(1);
+        }
+
         .item .text h1 {
             text-align: center;
         }
 
         .item .text p {
             padding: 0 15px;
-        }
-
-        .item:hover .text {
-            transform: scale(1);
         }
     </style>
 </head>
