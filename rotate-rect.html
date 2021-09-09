@@ -16,14 +16,16 @@
         .wrap {
             background-color: aqua;
             width: 960px;
-            margin: auto;
+            margin: 200px auto 0;
             display: flex;
             flex-wrap: wrap;
         }
 
         .wrap li {
             position: relative;
-            font-size: 20px;
+            font-size: 40px;
+
+            text-align: center;
             outline: 1px dotted blue;
 
             /* 計算 */
@@ -42,6 +44,7 @@
 
 
             /* 第1組(Amos的Demo值) */
+            line-height: 200px;
             width: 200px;
             height: 200px;
             margin: 0 60px 0px;
@@ -65,12 +68,14 @@
 
         .wrap li::before {
             position: absolute;
-            content: 'a';
+            content: '';
+            left: 0;
+            top: 0;
             width: 100%;
             height: 100%;
             transform: rotate(45deg);
             outline: 1px solid pink;
-            background-color: green;
+            background-color: rgba(0, 255, 0, 0.7);
         }
 
         .wrap li:nth-child(n+4) {
@@ -84,12 +89,13 @@
 
         .wrap li:nth-child(n+4)::before {
             outline: 1px solid greenyellow;
-            background-color: blue;
+            background-color: rgba(0, 0, 255, 0.7);
         }
 
         .wrap li:nth-child(n+7)::before {
             outline: 1px solid pink;
-            background-color: red;
+            background-color: rgba(255, 0, 0, 0.7);
+            ;
         }
 
         .wrap li:nth-child(n+7) {
