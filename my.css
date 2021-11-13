@@ -40,3 +40,8 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
     margin: 2px 0;
     background-color: black;
 }
+
+.discussReply{
+    display: flex;
+    flex-direction: column-reverse;
+}
