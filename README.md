@@ -20,14 +20,13 @@ Real World Ray Tracing
 
 ***
 
+深陷迷霧版 [link](http://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html#ch0)：    
 推理篇：偵探不是你想的那樣  
 番外篇：偏微分不一定滿足交換律  
 番外篇：偵探小說  
 最終章：實驗  
 附錄
 
-深陷迷霧版 [link](http://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html#ch0)  
-
-水落石出版 [link](https://dotdotdot2017.wordpress.com/2021/10/28/question_about_color/)  
-
-
+水落石出版 [link](https://dotdotdot2017.wordpress.com/2021/10/28/question_about_color/)：    
+What is Radiance ?  
+蒙地卡羅和俄羅斯輪盤  
