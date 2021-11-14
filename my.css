@@ -1,6 +1,5 @@
 body {
-    background-color: black;
-    color: white;
+    background: #c0a154 url(//www.blogblog.com/1kt/watermark/body_background_birds.png) repeat scroll top left;
 }
 
 li {
@@ -15,12 +14,12 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
 
 .discussInfo,
 .single {
+    background:transparent url(//www.blogblog.com/1kt/watermark/post_background_birds.png) repeat scroll top left;
     color: black;
     box-sizing: border-box;
     /* display: inline-block; */
     padding: 20px;
     margin: 20px;
-    background-color: rgb(245, 220, 173);
     /* border: 2px solid rgb(255, 68, 68); */
     /* line-height: 1; */
     /* text-indent:20px; */
@@ -44,4 +43,8 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
 .discussReply{
     display: flex;
     flex-direction: column-reverse;
+}
+
+.discussTitle{
+    order:1;
 }
