@@ -48,3 +48,12 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
 .discussTitle{
     order:1;
 }
+
+.goTop{
+    position:fixed;
+    right: 30px;
+}
+
+.goTop a{
+    text-decoration: none;
+}
