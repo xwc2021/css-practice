@@ -28,7 +28,7 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
 
 
 .discussMeta{
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .discussMeta::before{
