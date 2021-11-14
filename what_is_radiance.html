@@ -99,8 +99,13 @@
 		// 替換
 		window.onload = function () {
 			for (let i = 0; i < notes_remote.length; ++i) {
-				let a = document.querySelector('a[href="@url"]'.replace("@url", notes_remote[i]));
-				a.href = notes_local[i];
+				let url = notes_remote[i];
+				let new_url = notes_local[i];
+
+				let a_list = document.querySelectorAll('a[href="@url"]'.replace("@url", url));
+				console.log(i, a_list.length);
+				for (a of a_list)
+					a.href = new_url;
 			}
 			console.log('replace finish');
 		}
