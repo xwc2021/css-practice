@@ -26,7 +26,7 @@ Real World Ray Tracing
 最終章：實驗  
 附錄
 
-深陷迷霧版 [link](http://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html)  
+深陷迷霧版 [link](http://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html#ch0)  
 
 水落石出版 [link](https://dotdotdot2017.wordpress.com/2021/10/28/question_about_color/)  
 
