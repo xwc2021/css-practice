@@ -25,7 +25,7 @@ Real World Ray Tracing
 番外篇：偵探小說  
 最終章：實驗  
 
-深陷迷霧版
+深陷迷霧版  
 http://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance2.html
 
 水落石出版
