@@ -24,6 +24,7 @@ Real World Ray Tracing
 番外篇：偏微分不一定滿足交換律  
 番外篇：偵探小說  
 最終章：實驗  
+附錄
 
 深陷迷霧版  
 http://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html
