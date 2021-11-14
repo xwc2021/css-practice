@@ -57,3 +57,12 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
 .goTop a{
     text-decoration: none;
 }
+
+.editor_say::before{
+    content: "小編註：";
+}
+
+.editor_say{
+    margin: 15px 0;
+    font-size: small;
+}
