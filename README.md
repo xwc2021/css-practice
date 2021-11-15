@@ -20,13 +20,14 @@ Real World Ray Tracing
 
 ***
 
+2021水落石出版 ：    
+渲染方程 [link](https://gpnnotes.blogspot.com/2021/11/blog-post_1.html)  
+蒙地卡羅和俄羅斯輪盤 [link](https://gpnnotes.blogspot.com/2021/10/blog-post_28.html)  
+
+[2年前](https://pets.ettoday.net/news/1888865)的版本🙃 ..
 2019深陷迷霧版 [link](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html#ch0)：    
 推理篇：笨拙繫上红色领带的结  
 番外篇：偏微分不一定滿足交換律  
 番外篇：偵探小說  
 最終章：實驗  
 附錄
-
-2021水落石出版 ：    
-渲染方程 [link](https://gpnnotes.blogspot.com/2021/11/blog-post_1.html)  
-蒙地卡羅和俄羅斯輪盤 [link](https://gpnnotes.blogspot.com/2021/10/blog-post_28.html)
