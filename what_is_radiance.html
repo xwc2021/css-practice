@@ -149,18 +149,6 @@
 				<h3><i class="fa fa-comment"></i> 回覆列表</h3>
 			</div>
 
-
-			<div class="single">
-				<div class="discussContent">
-
-					既然要考慮針孔相機的「孔」徑，那 <a href="http://ocw.nthu.edu.tw/ocw/upload/discuss/test_11.jpg">test_11.jpg</a>
-					當然也是錯的
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-30 22:54:05
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
@@ -189,7 +177,7 @@
 				<div class="discussContent">
 
 					如果依照針孔相機的原理 <a href="http://ocw.nthu.edu.tw/ocw/upload/discuss/test_6.jpg">test_6.jpg</a>
-					完全就是錯的，因為那些散開來的光束，並不會通過針孔
+					會不會有問題阿？因為那些散開來的光束，並不會通過針孔
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-30 22:37:19
@@ -266,7 +254,7 @@
 			<div class="single">
 				<div class="discussContent">
 
-					這種事，本來就該交給那些「專業」的人去燃燒他們的時間
+					這種事，本來就該交給那些professor
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 14:00:00
@@ -276,7 +264,7 @@
 			<div class="single">
 				<div class="discussContent">
 
-					我才不要把生命浪費在這種地方
+					我還要把生命浪費在這種地方嗎？
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 13:32:12
@@ -296,7 +284,7 @@
 			<div class="single">
 				<div class="discussContent">
 
-					「國王真的有穿衣服嗎？」應該有吧，不然那些看到國王衣服的人是... 腦子有問題嗎？只是我的腦子還沒經過專業的訓練，因為我是門外漢。
+					「國王真的有穿衣服嗎？」應該有吧，不然那些看到國王衣服的人是... 這個這個 那個那個？可能我的腦子還沒經過專業的訓練，因為我是門外漢。
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 13:28:19
@@ -306,7 +294,9 @@
 			<div class="single">
 				<div class="discussContent">
 
-					這種「說一套、做一套」的做事方法，是就和「政治人物」一樣嗎？
+					這種「說一套、做一套」的做事方法，「政治人物」不也是這樣嗎？
+
+					<div class="editor_say">知其不可而為之嗎？</div>
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 13:21:14
@@ -336,19 +326,12 @@
 			<div class="single">
 				<div class="discussContent">
 
-					理論上是這樣，但是實務上做不到。最後也只能接受「看起來沒問題呢」這樣就可以了。
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 13:13:32
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					當所有dA貢獻的L都是一樣的，就像是黃色小書上的黃色區域；而當dA的L不太一樣，就像是書上的字遠的時候看起來變模糊了。但是在計算機圖形學，跟本沒辦法做 <a
+					當所有dA貢獻的L都是一樣的，就像是黃色小書上的黃色區域；而當dA的L不太一樣，就像是書上的字遠的時候看起來變模糊了。在計算機圖形學 <a
 						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/test_7.jpg">test_7.jpg</a>
-					那麼大量的計算，於是只能發射ray和用mipmap去近似。
+					就是發射多條ray和用mipmap去近似。
+
+					<div class="editor_say">發射多條ray是指：在視平面上的1個pixel，做多個取樣，產生differential ray；最後把這些differential ray做平均
+					</div>
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 13:10:23
@@ -396,58 +379,14 @@
 			<div class="single">
 				<div class="discussContent">
 
-					另外我覺得感光器，應該是切成一小塊一小塊的固定正方形大小的小東西，不太可能那些小正方形會動態調整大小。如果有多個L擊中小正方形，寫程式的話，可以對這些L取平均，但實際上視網模收集到的應該是dE。當很多dA離眼鏡很遠時，這些dA就會對很多小正形產生貢獻，
+					我覺得感光器，應該是切成一小塊一小塊的固定正方形大小的小東西，不太可能那些小正方形會動態調整大小。如果有多個L擊中小正方形，寫程式的話，可以對這些L取平均，但實際上感光器收集到的應該是dE。當很多dA離眼鏡很遠時，這些dA就會對很多小正形產生貢獻，
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 11:09:05
 
 				</div>
 			</div>
-			<div class="single">
-				<div class="discussContent">
 
-					也就是說，透視的「近大」「遠小」除了反映在投影面積上，也反映在立體角上。
-					<div class="editor_say">小編前面就說了，是同個東西阿</div>
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 10:49:58
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					我發現 <a href="http://ocw.nthu.edu.tw/ocw/upload/discuss/test_5.jpg">test_5</a>
-					的量網怪怪的；不過因dA會正比於dw，所以把dA換成dw好像還是說的通。
-
-					<div class="editor_say">量鋼沒有怪啦，那是因為被你上下消掉了，最後出來的結果是L；不過反正test_5的上半部本來就不對。</div>
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-16 10:48:15
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					同樣的白色筆記本也是diffuse；如果從這個方向來理解問題(2)就說的通了，因為diffuse是把射入白色筆記本dA的能量E從整個半球方向散開，能量被減低的程度相比鏡面的反射就會...
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-14 16:37:33
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					有點開始能掌握specular和diffuse的差別了。以黃色小書來說，不管我從那個方向看黃色小書，都是黃色，這可以想成光從黃色小書離開後，是均向外的泡泡(diffuse)；而鏡子就不一樣了，當我從不同的方向看向鏡子，鏡子反射的影像也不一樣，因為鏡子是更接近Dirca
-					function的那種BRDF。
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-14 16:25:04
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
@@ -458,6 +397,18 @@
 						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/test_6.jpg" data-darkreader-inline-color=""><i
 							class="fa fa-cloud-download"></i> 檔案下載</a> | <i class="fa fa-user"></i> 回覆者： 大白 | <i
 						class="fa fa-calendar"></i> 回應時間：2019-11-11 12:38:49
+
+				</div>
+			</div>
+			<div class="single">
+				<div class="discussContent">
+
+					<span id="appendix3"></span>
+					<h1>附錄：Mipmap、Multi Ray與透視</h1>
+
+				</div>
+				<div class="discussMeta">
+					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-10 13:39:36
 
 				</div>
 			</div>
@@ -578,7 +529,9 @@
 			<div class="single">
 				<div class="discussContent">
 
-					附錄：邏輯的重要性
+					<span id="appendix2"></span>
+					<h1>附錄：邏輯的重要性</h1>
+
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-10 13:39:36
@@ -588,9 +541,34 @@
 			<div class="single">
 				<div class="discussContent">
 
-					附上參考解答：真實與鏡子最後竟然殊途同歸
+					同樣的白色筆記本也是diffuse；如果從這個方向來理解問題(2)就說的通了，因為diffuse是把射入白色筆記本dA的能量E從整個半球方向散開，能量被減低的程度相比鏡面的反射就會...
+					<div class="editor_say">問題(2)的現像是因為透過黃色小書的間接光源距離shading point愈遠，最後到達shading
+						point的dEi會愈小；不管黃色小書距離遠近，白色筆記本的BRDF都是一樣的</div>
+				</div>
+				<div class="discussMeta">
+					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-14 16:37:33
+
+				</div>
+			</div>
+			<div class="single">
+				<div class="discussContent">
+
+					有點能掌握specular和diffuse的差別了。以黃色小書來說，不管我從那個方向看黃色小書，都是黃色，這可以想成光從黃色小書離開後，是均向外的泡泡(diffuse)；而鏡子就不一樣了，當我從不同的方向看向鏡子，鏡子反射的影像也不一樣，因為鏡子是更接近Dirca
+					function的那種BRDF。
+				</div>
+				<div class="discussMeta">
+					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-14 16:25:04
+
+				</div>
+			</div>
+			<div class="single">
+				<div class="discussContent">
+
+					<span id="appendix1"></span>
+					<h1>附錄： 鏡子 vs 直接看</h1>
+
 					<div class="editor_say">
-						如果y=5，y=5，用上半部算出來的是E/625，用下半部存出來的是E/100，下半部才是對的；問題是怎麼用下半部解釋 <a
+						如果y=5，y=5，用test_5.jpg的上半部算出來的是E/625，用下半部存出來的是E/100，下半部才是對的；問題是怎麼用下半部解釋 <a
 							href="http://ocw.nthu.edu.tw/ocw/upload/discuss/mirror_near_value.png">mirror_near_value.png</a>
 						和 <a
 							href="http://ocw.nthu.edu.tw/ocw/upload/discuss/mirror_far_value.png">mirror_far_value.png</a>
@@ -600,25 +578,14 @@
 				<div class="discussMeta">
 					<a style="color: red; --darkreader-inline-color:#c65652;" target="_blank"
 						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/test_5.jpg" data-darkreader-inline-color=""><i
-							class="fa fa-cloud-download"></i> 檔案下載</a> | <i class="fa fa-user"></i> 回覆者： 大白 | <i
+							class="fa fa-cloud-download"></i> test_5.jpg</a> | <i class="fa fa-user"></i> 回覆者： 大白 | <i
 						class="fa fa-calendar"></i> 回應時間：2019-11-08 22:11:32
 
 				</div>
 			</div>
 
 
-			<div class="single">
-				<div class="discussContent">
 
-					<span id="appendix"></span>
-					<h1>附錄</h1>
-
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-08 09:26:10
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
