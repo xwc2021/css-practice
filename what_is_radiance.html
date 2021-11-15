@@ -54,15 +54,12 @@
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E8%BF%91%E5%A4%A7%E9%81%A0%E5%B0%8F.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/holes_4.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/holes_3.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/holes_2.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/holes.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/sphere.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/20191104105101book.jpg',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/20191104104759%E5%B0%84%E7%AE%AD_%E7%AD%86%E8%A8%98%E6%9C%AC.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/ray_to_eye.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E5%B0%84%E7%AE%AD_%E9%8F%A1%E5%AD%90.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/diffuse_vs_specular.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E6%BC%AB%E5%8F%8D%E5%B0%84.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_10.jpg',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_2.jpg',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_9.jpg',
@@ -545,27 +542,15 @@
 			</div>
 			<div class="single">
 				<div class="discussContent">
-
-					同樣的白色筆記本也是diffuse；如果從這個方向來理解問題(2)就說的通了，因為diffuse是把射入白色筆記本dA的能量E從整個半球方向散開，能量被減低的程度相比鏡面的反射就會...
 					<div class="editor_say">問題(2)的現像是因為透過黃色小書的間接光源距離shading point愈遠，最後到達shading
-						point的dEi會愈小；不管黃色小書距離遠近，白色筆記本的BRDF都是一樣的</div>
+						point的dEi會愈小</div>
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-14 16:37:33
 
 				</div>
 			</div>
-			<div class="single">
-				<div class="discussContent">
 
-					有點能掌握specular和diffuse的差別了。以黃色小書來說，不管我從那個方向看黃色小書，都是黃色，這可以想成光從黃色小書離開後，是均向外的泡泡(diffuse)；而鏡子就不一樣了，當我從不同的方向看向鏡子，鏡子反射的影像也不一樣，因為鏡子是更接近Dirca
-					function的那種BRDF。
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-14 16:25:04
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
@@ -573,7 +558,7 @@
 					<h1>附錄1</h1>
 
 					<div class="editor_say">
-						如果y=5，y=5，用test_5.jpg的上半部算出來的是E/625，用下半部存出來的是E/100，下半部才是對的；如果是完美鏡射：寫程式的話是不計算dEi，直接使用Li作反射
+						如果y=5，k=5，用test_5.jpg的上半部算出來的是E/625，用下半部存出來的是E/100，下半部才是對的；如果是完美鏡射：寫程式的話是不計算dEi，直接使用Li作反射
 					</div>
 				</div>
 				<div class="discussMeta">
@@ -2525,16 +2510,7 @@
 
 				</div>
 			</div>
-			<div class="single">
-				<div class="discussContent">
 
-					連續暴氣了5天，大家掰噗
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-07 10:31:17
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
@@ -3594,7 +3570,7 @@
 					回想一下射箭的那3張圖，可以發現黃色小書遠離鏡子時，散彈槍的子彈因為距離而降低了密度；但同時黃色小書在鏡子上所佔的區域也變的更小了。雖然子彈變少了、但因為佔去
 					D區域也更小，讓我們不容易際覺到亮度的減弱。
 
-					<div class="editor_say">這邊我真的忍不住要給筆者鼓聲：筆者的是意思是，到達視平面的dEi變小了，但是因為透視效果，dA在視平面上的投影同時也變小了，這不就剛好是L=dEi/dw
+					<div class="editor_say">這邊我要給筆者鼓聲：筆者的是意思是，到達視平面的dEi變小了，但是因為透視效果，dA在視平面上的投影同時也變小了，這不就剛好是L=dEi/dw
 						想表達的意思嗎！
 					</div>
 				</div>
@@ -3629,184 +3605,14 @@
 			<div class="single">
 				<div class="discussContent">
 
-					我漏了一個最關鍵的地方!
+					對了，我漏了一個最關鍵的地方!
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-06 09:27:48
 
 				</div>
 			</div>
-			<div class="single">
-				<div class="discussContent">
 
-					歪樓了
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 23:59:32
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					人與人之間的溝通就那麼不容易了。更何況是國家和國家
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 23:37:01
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					一個要考慮cos(θi)項，一個不用
-					<div class="editor_say">這裡筆者說的「一個不用」，指的是cos(θo)，o指的是out，從光源射出，或從物體的表面射出</div>
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 23:36:14
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					花這麼多格，只是要表達從光源dA射出，跟從 <a href="http://ocw.nthu.edu.tw/ocw/upload/discuss/G_8.jpg">G_8.jpg</a>
-					是2件不同的事。我終於能理解高淑蓉教授的苦口婆心了。
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 23:34:02
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					但是呢，如果是從光源射入到物體時。像 <a href="http://ocw.nthu.edu.tw/ocw/upload/discuss/G_8.jpg">G_8.jpg</a>
-					畫的那樣，就可考慮cos(θi)了
-
-					<div class="editor_say">cos(θi)的i是指的是in，光射入物體表面</div>
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 23:31:37
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					考慮dA就好了，為什麼還要考慮dA cos(theda)呢？
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 23:28:12
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					<a
-						href="https://people.cs.clemson.edu/~ekp/courses/dpa8090/assets/SIGGRAPH02_AGI.pdf">SIGGRAPH02_AGI.pdf</a>
-					的第18頁，實在是讓人百思不解。對吧
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 22:57:09
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					對吧
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 22:55:23
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					那樣也不是辦法呢。只好靠近一點
-				</div>
-				<div class="discussMeta">
-					<a style="color: red; --darkreader-inline-color:#c65652;" target="_blank"
-						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/holes_4.png" data-darkreader-inline-color=""><i
-							class="fa fa-cloud-download"></i> 檔案下載</a> | <i class="fa fa-user"></i> 回覆者： 大白 | <i
-						class="fa fa-calendar"></i> 回應時間：2019-11-05 22:54:38
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					那如果是這樣呢？
-				</div>
-				<div class="discussMeta">
-					<a style="color: red; --darkreader-inline-color:#c65652;" target="_blank"
-						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/holes_3.png" data-darkreader-inline-color=""><i
-							class="fa fa-cloud-download"></i> 檔案下載</a> | <i class="fa fa-user"></i> 回覆者： 大白 | <i
-						class="fa fa-calendar"></i> 回應時間：2019-11-05 22:49:59
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					不對也，剛剛又想錯了，實際還會有反射的光束竄出
-				</div>
-				<div class="discussMeta">
-					<a style="color: red; --darkreader-inline-color:#c65652;" target="_blank"
-						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/holes_2.png" data-darkreader-inline-color=""><i
-							class="fa fa-cloud-download"></i> 檔案下載</a> | <i class="fa fa-user"></i> 回覆者： 大白 | <i
-						class="fa fa-calendar"></i> 回應時間：2019-11-05 22:31:22
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					光源dA的cos(Theda)給丟掉，至少目前，我還是覺得dA會均勻的向外。只要考慮w1＋w2有多少面積，找(w1＋w2)/2π是多少百分比，就能計算出有多少E可以從洞出法。但是這樣那些反射回來的要怎麼考慮呢？
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 22:20:21
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					這樣就還是冰淇淋了。耶~冰淇淋乾杯
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 22:09:29
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					只要想像面光源前 被很多有小洞的平面遮住，這樣每個dA就可能能射出的總立體角就可能不一樣
-					<div class="editor_say">以下這段筆者到底想表達什麼？小編不懂</div>
-				</div>
-				<div class="discussMeta">
-					<a style="color: red; --darkreader-inline-color:#c65652;" target="_blank"
-						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/holes.png" data-darkreader-inline-color=""><i
-							class="fa fa-cloud-download"></i> 檔案下載</a> | <i class="fa fa-user"></i> 回覆者： 大白 | <i
-						class="fa fa-calendar"></i> 回應時間：2019-11-05 22:07:49
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					繼續使用半球模型，然後有一種情況可以解釋第18頁那張圖。<a
-						href="https://people.cs.clemson.edu/~ekp/courses/dpa8090/assets/SIGGRAPH02_AGI.pdf">SIGGRAPH02_AGI.pdf</a>
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-05 22:00:27
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
@@ -4090,19 +3896,7 @@
 
 				</div>
 			</div>
-			<div class="single">
-				<div class="discussContent">
 
-					(2)的情況反射的箭要到達眼鏡，隨著距離遠變的更困難。因為這個箭更像是散彈槍，當dw變小，取彈槍的密度就變的更低了。
-					<div class="editor_say">同時，白色紙面比鏡子來的粗糙多了，會把箭反射到更多不同方向</div>
-				</div>
-				<div class="discussMeta"><a style="color: red; --darkreader-inline-color:#c65652;" target="_blank"
-						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/20191104104759%E5%B0%84%E7%AE%AD_%E7%AD%86%E8%A8%98%E6%9C%AC.png"
-						data-darkreader-inline-color=""><i class="fa fa-cloud-download"></i> 檔案下載</a>
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-04 10:38:54
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
@@ -4139,35 +3933,13 @@
 
 				</div>
 			</div>
-			<div class="single">
-				<div class="discussContent">
 
 
-					不對 <a href="http://ocw.nthu.edu.tw/ocw/upload/discuss/%E6%BC%AB%E5%8F%8D%E5%B0%84.png">漫反射.png</a>
-					描述的那個根本不是漫反射，反而比較像舞台的聚光燈吧
-				</div>
-				<div class="discussMeta">
-					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-04 09:31:19
-
-				</div>
-			</div>
-			<div class="single">
-				<div class="discussContent">
-
-					(2)的話，當黃色小書靠近白色筆記本，我的眼睛會看到白色筆記本上有微微的黃光：那是因為這種微微的黃光是漫反射。也就是說，那是累積多條微弱的ray才做出來的亮度，當黃色小書遠離筆記本時，那些微弱的ray已經從彼此交叉到分開了。
-				</div>
-				<div class="discussMeta">
-					<a style="color: red; --darkreader-inline-color:#c65652;" target="_blank"
-						href="http://ocw.nthu.edu.tw/ocw/upload/discuss/%E6%BC%AB%E5%8F%8D%E5%B0%84.png"
-						data-darkreader-inline-color=""><i class="fa fa-cloud-download"></i> 檔案下載</a> | <i
-						class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-04 06:26:42
-
-				</div>
-			</div>
 			<div class="single">
 				<div class="discussContent">
 
 					從particle來看的話 L就是能量包，從物體或光源和eye連成一條線，只要中間沒有碰到其他東西，就不會有能量的減少(1)和(3)就是這種情況。
+					<div class="editor_say">不對喔，實際上dE再變小，泡泡的理論並沒有錯；但立體角dw也變小了，所以 L= dE/dw 為定值</div>
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-04 06:16:57
@@ -4190,7 +3962,13 @@
 				<div class="discussContent">
 
 					我發現我還是無法回答這5個問題；因為如果把L當成只要沒有碰到物體就不會減弱的粒子，這樣回答不了第(5)個問題；如果把L當成是之前說的會擴散的波，就又有一些情況會沒辦法解釋。只好等待教授救援了。
-
+					<div class="editor_say">我猜筆者覺得奇怪的地方是鏡子，如果L是會擴散的波，那到底要怎麼解釋(4)呢？</div>
+					<div class="editor_say">
+						其實可以把L沿著1個方向的L想成1張的慢慢變小的Pizza餅皮；當Pizza餅皮打中完美鏡面時，鏡面先生會讓Pizza餅皮放變前進方向，讓Pizza餅皮沿新的方向會繼續變小。這樣就可以解釋(4)
+					</div>
+					<div class="editor_say">
+						而Diffuse先生(白紙)則是把迎面而來的Pizza餅皮，切成n塊更小的餅皮；當黃色小書先生和Diffuse先生(白紙)的距離愈遠，到達Diffuse先生面前的Pizza餅皮就會變的更小，這樣就能解釋(2)和(5.1)了
+					</div>
 				</div>
 				<div class="discussMeta">
 					<i class="fa fa-user"></i> 回覆者： 大白 | <i class="fa fa-calendar"></i> 回應時間：2019-11-04 01:04:41
