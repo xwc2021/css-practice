@@ -96,10 +96,18 @@
 			}
 			console.log('replace finish');
 		}
+
+		function toggle_editor_say(show) {
+			let editor_say_list = Array.from(document.querySelectorAll('.editor_say'));
+			for (let msg of editor_say_list)
+				msg.style.display = show ? 'block' : "none";
+		}
 	</script>
 	<div class="mainWrapper">
 		<span id="ch0"></span>
-		<div class="goTop">
+		<div class="FixedArea">
+			<button><a href="javascript:toggle_editor_say(false)">關閉小編，體驗更多偵探小說的氛圍</a></button>
+			<button><a href="javascript:toggle_editor_say(true)">打開小編</a></button>
 			<button><a href="#ch0">回到最上方</a></button>
 		</div>
 		<div class="discussInfo">

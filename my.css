@@ -49,12 +49,12 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
     order:1;
 }
 
-.goTop{
+.FixedArea{
     position:fixed;
     right: 30px;
 }
 
-.goTop a{
+.FixedArea a{
     text-decoration: none;
 }
 
