@@ -20,7 +20,7 @@ Real World Ray Tracing
 
 ***
 
-2019深陷迷霧版 [link](http://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html#ch0)：    
+2019深陷迷霧版 [link](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/what_is_radiance.html#ch0)：    
 推理篇：笨拙繫上红色领带的结  
 番外篇：偏微分不一定滿足交換律  
 番外篇：偵探小說  
