@@ -31,5 +31,6 @@ Real World Ray Tracing
 番外篇：偵探小說  
 最終章：實驗  
 附錄  
+Pizza的比喻：Diffuse vs 鏡面  
 (感謝小編的審閱、  
 還有在一些地方對文字的重新潤色)
