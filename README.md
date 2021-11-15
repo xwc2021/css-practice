@@ -27,6 +27,6 @@ Real World Ray Tracing
 最終章：實驗  
 附錄
 
-水落石出版 [link](https://dotdotdot2017.wordpress.com/2021/10/28/question_about_color/)：    
-What is Radiance ?  
-蒙地卡羅和俄羅斯輪盤  
+水落石出版 ：    
+渲染方程 [link](https://gpnnotes.blogspot.com/2021/11/blog-post_1.html)  
+蒙地卡羅和俄羅斯輪盤 [link](https://gpnnotes.blogspot.com/2021/10/blog-post_28.html)
