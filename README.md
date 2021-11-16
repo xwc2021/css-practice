@@ -38,5 +38,5 @@ Pizza的比喻：Diffuse vs 鏡面
 還有在一些地方對文字的重新潤色)
 
 # 出包了
-如果跟本就不該定義點光源的L，所有的論述都GG了  
+如果根本就不該定義點光源的L，所有的論述都GG了  
 重新檢視點光源 [link](https://gpnnotes.blogspot.com/2019/11/radiance.html?m=0)  
