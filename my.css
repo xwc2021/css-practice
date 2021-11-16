@@ -73,8 +73,13 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
 }
 
 .footer_link a {
+    text-decoration: none;
     text-align: center;
     width: 50%;
     display: block;
     margin: auto;
+}
+
+ul li a{
+    text-decoration: none;
 }
