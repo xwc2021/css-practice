@@ -1,5 +1,7 @@
 # css-practice
-本來是跟CSS可樂學CSS 現在已經變成What is Radiance ?了
+跟CSS可樂學CSS [link](https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/learn_css_with_csscoke.html)  
+
+# What is Radiance ?
 
 What is Radiance ?
 
