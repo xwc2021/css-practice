@@ -67,3 +67,14 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
     margin: 15px 0;
     font-size: small;
 }
+
+.footer_link {
+    padding: 10px 0 20px 0;
+}
+
+.footer_link a {
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
