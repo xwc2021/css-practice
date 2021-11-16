@@ -25,7 +25,6 @@ Real World Ray Tracing
 2021水落石出版 ：    
 渲染方程 [link](https://gpnnotes.blogspot.com/2021/11/blog-post_1.html)  
 蒙地卡羅和俄羅斯輪盤 [link](https://gpnnotes.blogspot.com/2021/10/blog-post_28.html)  
-重新檢視點光源 [link](https://gpnnotes.blogspot.com/2019/11/radiance.html?m=0)  
 
 [2年前](https://pets.ettoday.net/news/1888865)的版本 🙃  
 2019深陷迷霧版 [link](https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/what_is_radiance.html)：    
@@ -39,5 +38,5 @@ Pizza的比喻：Diffuse vs 鏡面
 還有在一些地方對文字的重新潤色)
 
 # 出包了
-出包了，如果這個定義是有問題的，接下來的論述都GG了  
+出包了，如果跟本就不該定義點光源的L，所有的論述都GG了  
 重新檢視點光源 [link](https://gpnnotes.blogspot.com/2019/11/radiance.html?m=0)  
