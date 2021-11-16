@@ -27,7 +27,7 @@ Real World Ray Tracing
 蒙地卡羅和俄羅斯輪盤 [link](https://gpnnotes.blogspot.com/2021/10/blog-post_28.html)  
 重新檢視點光源 [link](https://gpnnotes.blogspot.com/2019/11/radiance.html?m=0)  
 
-[2年前](https://pets.ettoday.net/news/1888865)的版本🙃  
+[2年前](https://pets.ettoday.net/news/1888865)的版本 🙃  
 2019深陷迷霧版 [link](https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/what_is_radiance.html)：    
 推理篇：笨拙繫上红色领带的结  
 番外篇：偏微分不一定滿足交換律  
