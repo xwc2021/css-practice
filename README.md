@@ -40,3 +40,6 @@ Pizza的比喻：Diffuse vs 鏡面
 # 出包了
 如果根本就不該定義點光源的L，所有的論述都GG了  
 重新檢視點光源 [link](https://gpnnotes.blogspot.com/2019/11/radiance.html?m=0)  
+
+反之，如果可以呢？  
+畢竟這樣的定義，也完全符合「L不隨距離而變阿」
