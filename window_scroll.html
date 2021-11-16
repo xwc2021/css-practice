@@ -89,6 +89,13 @@
 </head>
 
 <body>
+    <script>
+        function another_view() {
+            window.location.reload();
+            window.location.href = "#top_ref"
+        }
+    </script>
+    <span id="top_ref"></span>
     <div class="top_backgroud"></div>
     <div class="sliding_door">
         <h2>圖片</h2>
@@ -107,7 +114,7 @@
         <div class="sliding_door_backgroud backgroud_override_2">
         </div>
 
-        <div class="footer_link"> <a href="window_scroll.html">another
+        <div class="footer_link"> <a href="javascript:another_view()">another
                 view</a>
             <a
                 href="https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/learn_css_with_csscoke.html">learn_css_with_csscoke</a>
