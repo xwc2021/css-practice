@@ -80,6 +80,6 @@ a:active {color:#f78769;}  /* 設定上點擊過的連結樣式 */
     margin: auto;
 }
 
-ul li a{
+a{
     text-decoration: none;
 }
