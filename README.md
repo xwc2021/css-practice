@@ -5,6 +5,8 @@
 
 What is Radiance ?
 
+"The Alpha(dA) and the Omega(dω), the First and the Last, the Beginning and the End.Pay attention to the order,Bruh"  
+
 ![image](https://lh3.googleusercontent.com/pw/AM-JKLUnZARpUuIJv_20HFfSalFrG0xmzE_iEnVQL3iRI557VjC8ctTYGGQ6Krvx3xhlNp2UmLSkcPFndc2pOLmIe4Em8z7aKVswnmW3S3-mJ_MokU8AxlJxQzw5HJkgW0dhTNqJLRdJX3g-SKGX6tgFyKiT=w704-h938-no?authuser=0)
 
 Real World Ray Tracing
@@ -45,3 +47,13 @@ Pizza的比喻：Diffuse vs 鏡面
 
 反之，如果可以呢？  
 畢竟這樣的定義，也完全符合「L不隨距離而變」阿
+
+# 彩圖
+All are rendered in Unity.  
+3D models are created in Blender.  
+
+The robot is op1414. (OPUS)  
+The boy is Finn. (Adventure Time)  
+Motorcycle is Vespa.  
+The woman with glasses is created by me.Her body is referenced from actress Suzukawa Ayane.  [reference](https://star.setn.com/photo/2616/710299)
+![image](https://lh3.googleusercontent.com/pw/AM-JKLVSuKWdxcolU1jagkVEUIUruOgDNsxUccfR2WzM2E0ruvYN_uxfLWqDptUNZdjIOQC3qS0OkK5Y3CBNPc1yT4FacoGh4ZtIqp06cNzc1j_WXc8mhdO7Bvxvh4UIyfSpVU6I-rsuXyX3DRmBCFqB1mXaZw=w1080-h465-no?authuser=0)  
