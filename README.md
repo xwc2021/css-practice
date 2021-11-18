@@ -47,3 +47,9 @@ Pizza的比喻：Diffuse vs 鏡面
 
 反之，如果可以呢？  
 畢竟這樣的定義，也完全符合「L不隨距離而變」阿
+
+# 彩圖
+3D model is created by Blender.
+All are rendered in Unity.
+
+![image](https://lh3.googleusercontent.com/pw/AM-JKLVSuKWdxcolU1jagkVEUIUruOgDNsxUccfR2WzM2E0ruvYN_uxfLWqDptUNZdjIOQC3qS0OkK5Y3CBNPc1yT4FacoGh4ZtIqp06cNzc1j_WXc8mhdO7Bvxvh4UIyfSpVU6I-rsuXyX3DRmBCFqB1mXaZw=w1080-h465-no?authuser=0)
