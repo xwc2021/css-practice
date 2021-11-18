@@ -5,6 +5,8 @@
 
 What is Radiance ?
 
+L (Radiance) say："I am the Alpha (dA) and the Omega (dω) ! Please don't mix it up,Bruh"
+
 ![image](https://lh3.googleusercontent.com/pw/AM-JKLUnZARpUuIJv_20HFfSalFrG0xmzE_iEnVQL3iRI557VjC8ctTYGGQ6Krvx3xhlNp2UmLSkcPFndc2pOLmIe4Em8z7aKVswnmW3S3-mJ_MokU8AxlJxQzw5HJkgW0dhTNqJLRdJX3g-SKGX6tgFyKiT=w704-h938-no?authuser=0)
 
 Real World Ray Tracing
