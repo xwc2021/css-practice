@@ -53,8 +53,8 @@ All are rendered in Unity.
 3D model is created by Blender.  
 
 The robot is op1414. (OPUS)  
-The little boy is Finn. (Adventure Time)  
-Vespa motorcycle.
+The boy is Finn. (Adventure Time)  
+Motorcycle is Vespa.  
 The woman with glasses is created by me.  
-The body is referenced from actress Ayane Suzukawa.  [reference](https://star.setn.com/photo/2616/710299)
+Her body is referenced from actress Ayane Suzukawa.  [reference](https://star.setn.com/photo/2616/710299)
 ![image](https://lh3.googleusercontent.com/pw/AM-JKLVSuKWdxcolU1jagkVEUIUruOgDNsxUccfR2WzM2E0ruvYN_uxfLWqDptUNZdjIOQC3qS0OkK5Y3CBNPc1yT4FacoGh4ZtIqp06cNzc1j_WXc8mhdO7Bvxvh4UIyfSpVU6I-rsuXyX3DRmBCFqB1mXaZw=w1080-h465-no?authuser=0)  
