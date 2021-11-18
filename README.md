@@ -24,6 +24,7 @@ Real World Ray Tracing
 
 2021水落石出版 ：    
 渲染方程 [link](https://gpnnotes.blogspot.com/2021/11/blog-post_1.html)  
+iffuse BRDF推導過程的疑惑 [link](https://gpnnotes.blogspot.com/2021/10/diffuse-brdf.html)  
 蒙地卡羅和俄羅斯輪盤 [link](https://gpnnotes.blogspot.com/2021/10/blog-post_28.html)  
 
 [2年前](https://pets.ettoday.net/news/1888865)的版本 🙃  
