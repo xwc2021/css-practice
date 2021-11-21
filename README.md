@@ -32,7 +32,7 @@ Diffuse BRDF推導過程的疑惑 [link](https://gpnnotes.blogspot.com/2021/10/d
 番外篇：偏微分不一定滿足交換律  
 番外篇：偵探小說  
 最終章：實驗  
-推理篇：笨拙繫上红色领带的结  
+本篇：笨拙繫上红色领带的结  
 附錄：Mipmap、Multi Ray與透視    
 Pizza的比喻：Diffuse vs 鏡面  
 
