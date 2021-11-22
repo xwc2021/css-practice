@@ -3,10 +3,6 @@
 
 # 偵探小說 What is Radiance ?
 
-What is Radiance ?
-
-![image](https://lh3.googleusercontent.com/pw/AM-JKLUnZARpUuIJv_20HFfSalFrG0xmzE_iEnVQL3iRI557VjC8ctTYGGQ6Krvx3xhlNp2UmLSkcPFndc2pOLmIe4Em8z7aKVswnmW3S3-mJ_MokU8AxlJxQzw5HJkgW0dhTNqJLRdJX3g-SKGX6tgFyKiT=w704-h938-no?authuser=0)
-
 Real World Ray Tracing
 - from your Computer to Out of door
  
@@ -30,13 +26,6 @@ Real World Ray Tracing
 
 (感謝小編的審閱、  
 還有在一些地方對文字的重新潤色)
-
-# 出包了？
-如果根本就不該定義點光源的L，所有的論述都GG了  
-重新檢視點光源 [link](https://gpnnotes.blogspot.com/2019/11/radiance.html?m=0)  
-
-反之，如果可以呢？  
-畢竟這樣的定義，也完全符合「L不隨距離而變」阿
 
 # 彩圖
 All are rendered in Unity.  
