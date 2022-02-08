@@ -10,50 +10,45 @@
 </head>
 
 <body>
-	<script defer="true">
+	<script>
 		let notes_remote = [
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_11.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_6.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/case.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_7.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_7_v2.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/shv_yellow_book_eye.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/shv_mirror_far_value.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/shv_mirror_near_value.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/blender_shv.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/before_shv_mirror_far.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/before_shv_mirror_near.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/before_shv_yellow_book_eye.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/ray_tracing_from_the_ground_up_2.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/ray_tracing_from_the_ground_up.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E5%B0%8F%E9%99%B6.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/little_math_nightmare_2.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/little_math_nightmare_1.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/point_light.jpg',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E7%AB%8B%E9%AB%94%E8%A7%923.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E7%AB%8B%E9%AB%94%E8%A7%922.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E7%AB%8B%E9%AB%94%E8%A7%92.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E8%A7%92.png',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/20191104104759%E5%B0%84%E7%AE%AD_%E7%AD%86%E8%A8%98%E6%9C%AC.png',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E5%B0%84%E7%AE%AD_%E9%8F%A1%E5%AD%90.png',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/1_deltaEproj.png',
 
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E8%BF%91%E5%A4%A7%E9%81%A0%E5%B0%8F.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/sphere.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/book.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/20191104104759%E5%B0%84%E7%AE%AD_%E7%AD%86%E8%A8%98%E6%9C%AC.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/ray_to_eye.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/%E5%B0%84%E7%AE%AD_%E9%8F%A1%E5%AD%90.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/diffuse_vs_specular.png',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_10.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_10_error.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_2.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_9.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_8.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_7.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_6.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_5.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_4.jpg',
-			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_1.jpg',
 			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_0.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_1.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_2.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_4.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_5.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_6.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_7.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_8.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_9.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/G_10.jpg',
+
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/before_shv_mirror_far.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/before_shv_mirror_near.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/before_shv_yellow_book_eye.jpg',
+
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/blender_shv.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/case.png',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/diffuse_vs_specular.png',
+
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/shv_yellow_book_eye.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/shv_mirror_far_value.png',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/shv_mirror_near_value.png',
+
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/sphere.png',
+
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_6.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_7.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_7_v2.jpg',
+			'http://ocw.nthu.edu.tw/ocw/upload/discuss/test_11.jpg',
 		];
 		let notes_local = notes_remote.map(x => x.replace('http://ocw.nthu.edu.tw/ocw/upload/discuss/', 'notes/'));
 
@@ -69,6 +64,14 @@
 					a.href = new_url;
 			}
 			console.log('replace finish');
+
+			// let a_list = Array.from(document.querySelectorAll('a'));
+			// let pic_list = a_list.filter(a => a.href.indexOf('jpg') > -1 | a.href.indexOf('png') > -1);
+			// pic_list.sort();
+			// console.log(pic_list.length);
+
+			// for (let a of pic_list)
+			// 	console.log("href=" + a.href);
 		}
 
 		function toggle_editor_say(show) {
