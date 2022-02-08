@@ -3,8 +3,8 @@
 
 # Radiance的疑問和筆記
 
-[v1](https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/what_is_radiance.html)
+[疑問](https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/what_is_radiance.html)
 
-[v2](https://gpnnotes.blogspot.com/2021/11/blog-post_1.html)
+[筆記](https://gpnnotes.blogspot.com/2021/11/blog-post_1.html)
 
-  
+[BGM 科普樂 🐒](https://youtu.be/ppvqjPkQ0BY)
