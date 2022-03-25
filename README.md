@@ -3,3 +3,5 @@
 
 # what is radiance
 [屁靈魂版](https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/pi_version/what_is_radiance2.html)
+
+[薄版](https://htmlpreview.github.io/?https://github.com/xwc2021/what-is-radiance/blob/main/what_is_radiance.html)
