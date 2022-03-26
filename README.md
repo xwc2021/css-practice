@@ -10,6 +10,7 @@
 [小編修訂版](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/editor_version/what_is_radiance.html)  
 
 原汁原味、一鏡到底  
+(保留錯誤和不良示範的版本)
 [屁靈魂版](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/pi_version/what_is_radiance2.html)
 
 # DLC補充包
