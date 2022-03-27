@@ -13,5 +13,7 @@
 [小編修訂版](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/editor_version/what_is_radiance.html)  
 
 原汁原味、一鏡到底  
-(小編註：保留錯誤和一些筆者的幼稚行為，最後Mipmap那段，超難讀的版本，方程式的變量還標錯，要不是小編我...)  
 [屁靈魂版](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/pi_version/what_is_radiance2.html)
+小編註：保留錯誤和一些筆者的幼稚行為
+最後那段，超難讀的版本
+方程式的變量還給我標錯...
