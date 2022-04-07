@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .nav {
+            position: relative;
+            max-width: 1400px;
+            background: rgb(255, 182, 255);
+            text-align: center;
+            font-size: 0px;
+            margin: auto;
+        }
+
+        .nav a {
+            color: black;
+            display: inline-block;
+            font-size: 50px;
+            box-sizing: border-box;
+            line-height: 50px;
+            padding: 10px 10px;
+            /* transition: 1.5s; */
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            background-color: orange;
+        }
+
+        .sentence {
+            font-size: 35px;
+            line-height: 70px;
+            text-align: center;
+            color: gray;
+        }
+
+        .level-title {
+            border: 5px solid rgb(138, 138, 255);
+            max-width: 960px;
+            margin: auto;
+            text-align: center;
+            font-size: 70px;
+            background-color: bisque;
+        }
+
+        .box {
+            max-width: 960px;
+            border: 5px solid rgb(138, 138, 255);
+            background-color: rgb(206, 196, 179);
+            ;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .note {
+            box-sizing: border-box;
+            /* display: inline-block; */
+            width: 300px;
+            padding: 20px;
+            margin: 10px;
+            background-color: rgb(245, 220, 173);
+            border: 2px solid rgb(246, 140, 140);
+            /* line-height: 1; */
+            /* text-indent:20px; */
+        }
+
+        .fixed-for-note {
+            background-color: #fff;
+            height: 20px;
+            clear: both;
+        }
+
+        img {
+            width: 260px;
+            height: 160px;
+            object-fit: contain;
+            /* border: 2px solid aqua; */
+        }
+
+        .wanted {
+            text-align: center;
+            font-size: 60px;
+        }
+
+        .people {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .money {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .box-level-8 {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box-level-0 {
+            background: linear-gradient(90deg,
+            rgb(255, 162, 162) 0%, rgb(255, 162, 162) 14.2%,
+            rgb(255, 186, 57) 14.2%, rgb(255, 186, 57) 28.4%,
+            rgb(255, 255, 134) 28.4%, rgb(255, 255, 134) 42.6%,
+            rgb(138, 255, 138) 42.6%, rgb(138, 255, 138) 56.8%,
+            rgb(151, 199, 246) 56.8%, rgb(151, 199, 246) 71%,
+            rgb(120, 120, 255) 71%, rgb(120, 120, 255) 85.2%,
+            rgb(195, 121, 255) 85.2%, rgb(195, 121, 255) 100%);
+        }
+
+        .box-level-1 {
+            background: linear-gradient(90deg,
+                    rgb(255, 162, 162) 0%, rgb(255, 162, 162) 50%,
+                    rgb(255, 186, 57) 50%, rgb(255, 186, 57) 100%);
+        }
+
+        .box-level-2 {
+            background: linear-gradient(90deg,
+            rgb(255, 255, 134) 0%, rgb(255, 255, 134) 50%,
+            rgb(138, 255, 138) 50%, rgb(138, 255, 138) 100%);
+  
+        }
+
+        .box-level-3 {
+            background-color: rgb(151, 199, 246);
+        }
+
+        .box-level-4 {
+            background-color: rgb(120, 120, 255);
+        }
+
+        .box-level-5 {
+            background-color: rgb(195, 121, 255);
+        }
+
+
+        .block {
+            height: 50px;
+        }
+
+        .big-block {
+            height: 100px;
+        }
+    </style>
+</head>
+<link rel="stylesheet" type="text/css" href="my.css">
+
+<body>
+    <div class="nav">
+        <a href="">⬆️</a>
+        <a href="">⬅️</a>
+        <a href="">⬇️</a>
+        <a href="">➡️</a>
+        <a href="">Development Game</a>
+        <a href="">⬜️</a>
+        <a href="">🔺</a>
+        <a href="">⚪️</a>
+        <a href="">✖️</a>
+    </div>
+    <div class="sentence"> 哈囉你好嗎 衷心感謝 珍重再見 期待在相逢
+    </div>
+    <div class="block"></div>
+
+    <div>
+        <div class="level-title">Coordinate System</div>
+        <div class="box box-level-8">
+
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss//Level_8/Descartes.PNG" alt="">
+                <div class="people">Descartes</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+    <div class="big-block"></div>
+
+    <div>
+        <div class="level-title">Computer Graphics</div>
+        <div class="box box-level-0">
+
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss//Level_7/Francis Sandy Hill.jfif" alt="">
+                <div class="people">Francis Sandy Hill</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+    <div class="big-block"></div>
+
+    <div>
+        <div class="level-title">Ray Tracing</div>
+        <div class="box box-level-1">
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/Kevin Suffern.jpg" alt="">
+                <div class="people">CG Kevin Suffern</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+    <div>
+        <div class="level-title">物理</div>
+        <div class="box box-level-2">
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_3/Ian Millington.jpg" alt="">
+                <div class="people">物理 Ian Millington</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+    <div>
+        <div class="level-title">遊戲AI</div>
+        <div class="box box-level-3">
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_3/Ian Millington.jpg" alt="">
+                <div class="people">遊戲AI Ian Millington</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_3/John Funge.jfif" alt="">
+                <div class="people">遊戲AI John Funge</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+
+    <div>
+        <div class="level-title">網遊</div>
+        <div class="box box-level-4">
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_4/Joshua L. Glazer.jpg" alt="">
+                <div class="people">網遊 Joshua L. Glazer</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_4/Sanjay Madhav.jpeg" alt="">
+                <div class="people">網遊 Sanjay Madhav</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+    <div class="big-block"></div>
+
+    <div>
+        <div class="level-title">Rainbow Team</div>
+        <div class="box box-level-0">
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/John F. Hughes.png" alt="">
+                <div class="people">CG John F. Hughes</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/Andries van Dam.jpg" alt="">
+                <div class="people">CG Andries van Dam</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/Morgan McGuire.jpg" alt="">
+                <div class="people">CG Morgan McGuire</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/David Sklar.jfif" alt="">
+                <div class="people">CG David Sklar</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/James D. Foley.jpg" alt="">
+                <div class="people">CG James D. Foley</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/Steven K. Feiner.jpg" alt="">
+                <div class="people">CG Steven K. Feiner</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/Kurt Akeley.jpg" alt="">
+                <div class="people">CG Kurt Akeley</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+    <div class="big-block"></div>
+  
+    <div>
+        <div class="level-title">選讀</div>
+        <div class="box box-level-5">
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_5/Jasper Flick.jpg" alt="">
+                <div class="people">Custom SRP Jasper Flick</div>
+                <div class="money">700000000</div>
+            </div>
+            
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_7/peter shirley.PNG" alt="">
+                <div class="people">CG Peter Shirley</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_2/Donald H. House.png" alt="">
+                <div class="people">物理 Donald H. House</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="note">
+                <div class="wanted">WANTED</div>
+                <img src="Development Game Boss/Level_2/John Keyser.jpg" alt="">
+                <div class="people">物理 John Keyser</div>
+                <div class="money">700000000</div>
+            </div>
+            <div class="fixed-for-note"></div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
