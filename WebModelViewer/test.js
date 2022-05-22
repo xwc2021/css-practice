@@ -25,6 +25,6 @@ window.addEventListener("resize", function () {
     engine.resize();
 });
 
-BABYLON.SceneLoader.Append("GLTF/", "bike_3.glb", scene, function (scene) {
+BABYLON.SceneLoader.Append("GLTF/", "E_act_move.glb", scene, function (scene) {
     scene.activeCamera.alpha += 0.5 * Math.PI;
 });
