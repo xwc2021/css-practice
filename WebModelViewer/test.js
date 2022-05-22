@@ -28,17 +28,34 @@ window.addEventListener("resize", function () {
 //     scene.activeCamera.alpha += 0.5 * Math.PI;
 // });
 
-const importPromise = BABYLON.SceneLoader.ImportMeshAsync(["MotoBody"], "GLTF/", "bike_3.gltf", scene);
-// const importPromise = BABYLON.SceneLoader.ImportMeshAsync(["Armature"], "GLTF/", "E_act_move.gltf", scene);
-importPromise.then((result) => {
-    // Result has meshes, particleSystems, skeletons, animationGroups and transformNodes
-    console.log(result);
+var is_skinned_mesh = false;
 
-    // 移動
-    result.transformNodes[0].position = new BABYLON.Vector3(0, -0.5, 0);
+if (is_skinned_mesh) {
+    const importPromise = BABYLON.SceneLoader.ImportMeshAsync(["Armature"], "GLTF/", "E_act_move.gltf", scene);
+    importPromise.then((result) => {
+        // Result has meshes, particleSystems, skeletons, animationGroups and transformNodes
+        console.log(result);
 
-    // 動態改材質
-    var m = new BABYLON.StandardMaterial("myMaterial", scene);
-    m.diffuseColor = new BABYLON.Color3(0, 1, 0);
-    result.meshes[3].material = m;
-})
+        // 移動
+        result.transformNodes[14].position = new BABYLON.Vector3(0, -1.5, 0);
+
+        // 動態改材質
+        // var m = new BABYLON.StandardMaterial("myMaterial", scene);
+        // m.diffuseColor = new BABYLON.Color3(0, 1, 0);
+        // result.meshes[1].material = m;
+    });
+} else {
+    const importPromise = BABYLON.SceneLoader.ImportMeshAsync(["MotoBody"], "GLTF/", "bike_3.gltf", scene);
+    importPromise.then((result) => {
+        // Result has meshes, particleSystems, skeletons, animationGroups and transformNodes
+        console.log(result);
+
+        // 移動
+        result.transformNodes[0].position = new BABYLON.Vector3(0, -0.5, 0);
+
+        // 動態改材質
+        var m = new BABYLON.StandardMaterial("myMaterial", scene);
+        m.diffuseColor = new BABYLON.Color3(0, 1, 0);
+        result.meshes[3].material = m;
+    });
+}
