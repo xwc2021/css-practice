@@ -40,11 +40,16 @@ History
             background-color: black;
         }
 
+        .custom_link {
+            display: block;
+            text-align: center;
+        }
+
         .nav {
             position: relative;
             max-width: 1400px;
             background: rgb(255, 182, 255);
-            text-align: center;
+
             font-size: 0px;
             margin: auto;
         }
@@ -266,7 +271,9 @@ History
                     <div>Jos Stam </div>
                 </div>
                 <div class="money">700000000</div>
-                <div class="remark">不是 有些code怎麼跟書內容對不起來？</div>
+                <div class="remark">
+                    <a class="custom_link" href="https://gpnnotes.blogspot.com/2023/02/josjos.html">筆記</a>
+                </div>
             </div>
             <div class="note">
                 <div class="wanted">WANTED</div>
@@ -316,30 +323,6 @@ History
             <div class="fixed-for-note"></div>
         </div>
     </div>
-    <div id="msg" style="color: red; font-size: 20px;">msg</div>
-    <script>
-        "object" != typeof ue || "object" != typeof ue.interface ? ("object" != typeof ue && (ue = {}),
-            ue.interface = {}, ue.interface.broadcast = function (e, t) {
-                if ("string" == typeof e) {
-                    var o = [e, ""]; void 0 !== t && (o[1] = t); var n = encodeURIComponent(JSON.stringify(o));
-                    "object" == typeof history && "function" == typeof history.pushState ? (history.pushState(
-                        {}, "", "#" + n), history.pushState({}, "", "#" + encodeURIComponent("[]"))) :
-                        (document.location.hash = n, document.location.hash = encodeURIComponent("[]"))
-                }
-            }) :
-            function (e) {
-                ue.interface = {}, ue.interface.broadcast = function (t, o) {
-                    "string" == typeof t && (void 0 !== o ? e.broadcast(t, JSON.stringify(o)) :
-                        e.broadcast(t, ""))
-                }
-            }(ue.interface), ue4 = ue.interface.broadcast;
-
-        window.onload = function () {
-            document.getElementById("msg").innerHTML = "cat";
-        };
-
-        window.addEventListener("scroll", function (e) { if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) { ue4("scroll_down", { "y": window.scrollY }); document.getElementById("msg").innerHTML = "scroll_down"; } });
-    </script>
 </body>
 
 </html>
