@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="badge-shape-wiz__text">11:55</div>
+    <div class="badge-shape-wiz__text">12:60</div>
+    <div class="badge-shape-wiz__text">1:02:15</div>
+
+    <script>
+        // 抓youtube 影片清單總時長
+        document.getElementById("below").querySelector("ytd-playlist-panel-renderer").getElementsByClassName("badge-shape-wiz__text");
+        window.obj_list = document.getElementById("below").querySelector("ytd-playlist-panel-renderer").getElementsByClassName("badge-shape-wiz__text");
+
+        let h = 0, m = 0, s = 0;
+        for (var i = 0; i < this.obj_list.length; i++) {
+            let text = this.obj_list[i].innerHTML;
+            let attri = text.split(":");
+            console.log(text);
+            attri.reverse();
+
+
+            if (attri.length >= 1)
+                s += parseInt(attri[0]);
+
+            if (attri.length >= 2)
+                m += parseInt(attri[1]);
+
+            if (attri.length == 3)
+                h += parseInt(attri[2]);
+        };
+
+        let promotion = function (v) {
+            return (v - v % 60) / 60;
+        };
+        let the_rest = function (v) {
+            return v % 60;
+        };
+        console.log(h, m, s);
+        m += promotion(s);
+        s = the_rest(s);
+
+        h += promotion(m);
+        m = the_rest(m);
+
+        console.log("播放清單總時長：%i:%i:%i", h, m, s);
+
+    </script>
+</body>
+
+</html>
