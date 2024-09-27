@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="badge-shape-wiz__text">11:55</div>
+    <div class="badge-shape-wiz__text">12:60</div>
+    <div class="badge-shape-wiz__text">1:02:15</div>
+
+    <script>
+
+        // 抓youtube 影片清單總時長
+        // 在chrome建立書籤，把下面整段貼到書籤網址即可
+        javascript: var domain = 'movie.com';
+        function getPlayerListTotalText() {
+            window.obj_list = document.getElementById("below").querySelector("ytd-playlist-panel-renderer").querySelectorAll("a > div > div:nth-child(3) > h4 > span");
+            let a = [];
+            window.obj_list.forEach(element => {
+                a.push(element.innerText);
+            });
+            console.table(a);
+        }
+        getPlayerListTotalText();
+
+    </script>
+</body>
+
+</html>
