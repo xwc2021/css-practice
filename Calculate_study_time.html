@@ -16,7 +16,7 @@
 
         // 抓youtube 影片清單總時長
         // 在chrome建立書籤，把下面整段貼到書籤網址即可
-        javascript: var domain = '';
+        javascript: var domain = 'movie.com';
         function getPlayerListTotalTime() {
             window.obj_list = document.getElementById("below").querySelector("ytd-playlist-panel-renderer").getElementsByClassName("badge-shape-wiz__text");
             let L = this.obj_list.length;
@@ -52,7 +52,7 @@
             h += promotion(m);
             m = the_rest(m);
 
-            let msg = `共幾${L}部影片，播放清單總時長：${h}:${m}:${s}`;
+            let msg = `有${L}部影片，播放清單總時長：${h}:${m}:${s}`;
             console.log(msg);
             alert(msg);
         }
