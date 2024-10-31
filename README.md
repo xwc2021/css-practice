@@ -32,3 +32,4 @@ phase 4 啟動
 
 [Development-Game-Phaze-5](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/Development-Game/Development-Game-Phaze-5.html)
 [Development-Game-Phaze-5-1](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/Development-Game/Development-Game-Phaze-5-1.html)
+[Development-Game-Phaze-5-2](https://htmlpreview.github.io/?https://github.com/xwc2021/css-practice/blob/main/Development-Game/Development-Game-Phaze-5-2.html)
